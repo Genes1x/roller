@@ -1,0 +1,82 @@
+{
+  "buckets": [
+    {
+      "id": 1,
+      "name": "Bucket 1"
+    },
+    {
+      "id": 2,
+      "name": "Bucket 2"
+    },
+    {
+      "id": 3,
+      "name": "Bucket 3"
+    },
+    {
+      "id": 4,
+      "name": "Bucket 4"
+    }
+  ],
+  "folders": [
+    {
+      "id": 1,
+      "name": "Folder 1",
+      "parent_id": null,
+      "n_file": 2,
+      "n_folder": 2
+    },
+    {
+      "id": 2,
+      "name": "Folder 2",
+      "parent_id": 1,
+      "n_file": 1,
+      "n_folder": 0
+    },
+    {
+      "id": 3,
+      "name": "Folder 3",
+      "parent_id": 1,
+      "n_file": 0,
+      "n_folder": 1
+    },
+    {
+      "id": 4,
+      "name": "Folder 4",
+      "parent_id": 3,
+      "n_file": 1,
+      "n_folder": 0
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "name": "File 1",
+      "parent_id": 2
+    },
+    {
+      "id": 2,
+      "name": "File 2",
+      "parent_id": 4
+    },
+    {
+      "id": 3,
+      "name": "File 3",
+      "parent_id": 1
+    },
+    {
+      "id": 4,
+      "name": "File 4",
+      "parent_id": 1
+    },
+    {
+      "id": 5,
+      "name": "File 5",
+      "parent_id": null
+    },
+    {
+      "id": 6,
+      "name": "File 6",
+      "parent_id": null
+    }
+  ]
+}
