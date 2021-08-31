@@ -23,60 +23,70 @@
       "name": "Folder 1",
       "parent_id": null,
       "n_file": 2,
-      "n_folder": 2
+      "n_folder": 2,
+      "bucket_id": 1
     },
     {
       "id": 2,
       "name": "Folder 2",
       "parent_id": 1,
       "n_file": 1,
-      "n_folder": 0
+      "n_folder": 0,
+      "bucket_id": 1
     },
     {
       "id": 3,
       "name": "Folder 3",
       "parent_id": 1,
       "n_file": 0,
-      "n_folder": 1
+      "n_folder": 1,
+      "bucket_id": 1
     },
     {
       "id": 4,
       "name": "Folder 4",
       "parent_id": 3,
       "n_file": 1,
-      "n_folder": 0
+      "n_folder": 0,
+      "bucket_id": 1
     }
   ],
   "files": [
     {
       "id": 1,
       "name": "File 1",
-      "parent_id": 2
+      "parent_id": 2,
+      "bucket_id": 1
     },
     {
       "id": 2,
       "name": "File 2",
-      "parent_id": 4
+      "parent_id": 4,
+      "bucket_id": 1
     },
     {
       "id": 3,
       "name": "File 3",
-      "parent_id": 1
+      "parent_id": 1,
+      "bucket_id": 1
     },
     {
       "id": 4,
       "name": "File 4",
-      "parent_id": 1
+      "parent_id": 1,
+      "bucket_id": 1
     },
     {
       "id": 5,
       "name": "File 5",
-      "parent_id": null
+      "parent_id": null,
+      "bucket_id": 1
     },
     {
       "id": 6,
       "name": "File 6",
-      "parent_id": null
+      "parent_id": null,
+      "bucket_id": 1
     }
   ]
 }
